@@ -1,0 +1,16 @@
+# Site settings
+title: First Jekyll Practice
+email: mundert@gmail.com
+description: > 
+  First time using Jekyll to generate a static site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: teemund
+github_username:  tmund
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
